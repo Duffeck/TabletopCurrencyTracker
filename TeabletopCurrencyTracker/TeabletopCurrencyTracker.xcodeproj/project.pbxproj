@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B26489902758454100989F8C /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B264898F2758454100989F8C /* CalculatorView.swift */; };
+		B270BC7D2757D6DF00C7C49F /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B270BC7C2757D6DF00C7C49F /* PlayerView.swift */; };
+		B2A6B4AE275AEABE000F885C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A6B4AD275AEABE000F885C /* Player.swift */; };
 		B2A8F842274943FB003577F2 /* TeabletopCurrencyTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8F841274943FB003577F2 /* TeabletopCurrencyTrackerApp.swift */; };
 		B2A8F844274943FB003577F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8F843274943FB003577F2 /* ContentView.swift */; };
 		B2A8F846274943FC003577F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A8F845274943FC003577F2 /* Assets.xcassets */; };
 		B2A8F849274943FC003577F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A8F848274943FC003577F2 /* Preview Assets.xcassets */; };
+		B2D51DEC2753306500663169 /* GameSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D51DEB2753306500663169 /* GameSetup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B264898F2758454100989F8C /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		B270BC7C2757D6DF00C7C49F /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		B2A6B4AD275AEABE000F885C /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		B2A8F83E274943FB003577F2 /* TeabletopCurrencyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeabletopCurrencyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A8F841274943FB003577F2 /* TeabletopCurrencyTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeabletopCurrencyTrackerApp.swift; sourceTree = "<group>"; };
 		B2A8F843274943FB003577F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B2A8F845274943FC003577F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2A8F848274943FC003577F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2D51DEB2753306500663169 /* GameSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSetup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				B2A8F841274943FB003577F2 /* TeabletopCurrencyTrackerApp.swift */,
 				B2A8F843274943FB003577F2 /* ContentView.swift */,
+				B2D51DEB2753306500663169 /* GameSetup.swift */,
 				B2A8F845274943FC003577F2 /* Assets.xcassets */,
 				B2A8F847274943FC003577F2 /* Preview Content */,
+				B270BC7C2757D6DF00C7C49F /* PlayerView.swift */,
+				B264898F2758454100989F8C /* CalculatorView.swift */,
+				B2A6B4AD275AEABE000F885C /* Player.swift */,
 			);
 			path = TeabletopCurrencyTracker;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2A8F844274943FB003577F2 /* ContentView.swift in Sources */,
+				B26489902758454100989F8C /* CalculatorView.swift in Sources */,
+				B2D51DEC2753306500663169 /* GameSetup.swift in Sources */,
 				B2A8F842274943FB003577F2 /* TeabletopCurrencyTrackerApp.swift in Sources */,
+				B2A6B4AE275AEABE000F885C /* Player.swift in Sources */,
+				B270BC7D2757D6DF00C7C49F /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
